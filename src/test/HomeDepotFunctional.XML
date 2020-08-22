@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Adhoc"> 
+<listeners>
+<listener class-name="listeners.ilistners" />
+</listeners>
+
+<parameter name="url"     value="https://www.homedepot.com/"></parameter>
+<test name="HomeP">
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+<class name="Runner.HomeDepotAcc">
+</class>
+</classes>
+</test>
+</suite>
+
+<!--  -->
